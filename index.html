@@ -4,81 +4,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <style>
-        body{
-            height:2000px;
-           
-        }
-    </style>
+    <title>My Car Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">    
 </head>
 <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="card w-25 h-75 col-12 col-md-6 col-xl-4   ">
-            <img src="./img/lam-1.jpg" alt="" class="card-image w-100 h-50 ">
-            <div class="card-body">
-                <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum, quibusdam voluptatibus laudantium minima culpa dolor, fuga dicta magni asperiores animi quo eligendi dignissimos earum?
-                </p>
-                <a href="#" class="btn btn-outline-primary ">learn More</a>
-            </div>
+    <style>
+       body{
+        height: 3000px;
+       }
+    </style>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/lamborghini-logo-27196-64x64.ico" class="" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Models</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="#">Sports cars</a></li>
+                  <li><a class="dropdown-item" href="#">Concept cars</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">All Products</a></li>
+                </ul>
+              </li>
+            </ul>
+           <div class="">
+            <a href="#" class="btn btn-warning">Contact Us</a>
+           </div>
+          </div>
         </div>
-    
-        <div class=" card w-25 h-75 col-12 col-md-6 col-xl-4 ">
-            <img src="./img/lam-4.jpg" alt="" class="card-image w-100 h-50">
-            <div class="card-body">
-                <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum, quibusdam voluptatibus laudantium minima culpa dolor, fuga dicta magni asperiores animi quo eligendi dignissimos earum?
-                </p>
-                <a href="#" class="btn btn-outline-primary ">learn More</a>
-            </div>
-        </div>
-        <div class=" card w-25 h-75 col-12 col-md-6 col-xl-4 ">
-            <img src="./img/lam-2.jpg" alt="" class="card-image w-75 h-50">
-            <div class="card-body">
-                <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum, quibusdam voluptatibus laudantium minima culpa dolor, fuga dicta magni asperiores animi quo eligendi dignissimos earum?
-                </p>
-                <a href="#" class="btn btn-outline-primary ">learn More</a>
-            </div>
-      </div>
-    </div>
+      </nav>
 
-    <!-- <div class="container">
-      <div class="row">
-        <div class="card w-25 h-75 col-12 col-md-6 col-xl-3 ">
-            <img src="./img/lam-4.jpg" alt="" class="card-image w-100 h-50">
-            <div class="card-body">
-                <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum, quibusdam voluptatibus laudantium minima culpa dolor, fuga dicta magni asperiores animi quo eligendi dignissimos earum?
-                </p>
-                <a href="#" class="btn btn-outline-primary ">learn More</a>
+      <section class="top mt-3">
+        <div class="container">
+            <div class="row flex-column-reverse flex-lg-row align-items-center">
+                <div class="col-12 col-lg-5">
+                    <div class="my-5 my-lg-0">
+                        <h1 class="display-2 fw-bold text-uppercase">Lamborgini World</h1>
+                        <p class="">
+                            Find Lamborghini models, new releases, latest news, events, and the dealers across the world.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <img src="./images/lamborghini-image-29016.webp" class="w-100"   style="height: 400px;object-fit:contain; " alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="container ">
+        <div class="row justify-content-center">
+            <div class="col-8 col-lg-4">
+                <div class="text-center my-5">
+                    <h1 class="display-5 fw-semibold">What are you looking for?</h1>
+                    <p class="">
+                        In our website,you can find several car models.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="card w-25 h-75 col-12 col-md-6 col-xl-6 ">
-            <img src="./img/images (1).jpg" alt="" class="card-image w-100 h-50">
-            <div class="card-body ">
-                <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum, quibusdam voluptatibus laudantium minima culpa dolor, fuga dicta magni asperiores animi quo eligendi
-                </p>
-                <a href="#" class="btn btn-outline-primary ">learn More</a>
-            </div>
-        </div>
-    
-        <div class="card w-25 h-75 col-12 col-md-6 col-xl-3 p-3 ">
-            <img src="./img/lam-11.jpg" alt="" class="card-image w-100 h-50">
-            <div class="card-body">
-                <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis illum, quibusdam voluptatibus laudantium minima culpa dolor, fuga dicta magni asperiores animi quo eligendi dignissimos earum?
-                </p>
-                <a href="#" class="btn btn-outline-primary ">learn More</a>
-            </div>
-        </div>
-      </div> -->
+            <div class="row mb-2">
+                <div class="col">
+                    <div class="image-container-1 card">
+                        <div class="">
+                            <img src="./images/images (2).jpg" class="w-100 "  alt="">
+                            <h4 class="fw-semibold text-center text-uppercase">Aventador Lp 700-4</h4>
+                        </div>
+                        <div class="d-grid">
+                            <button class=" btn btn-outline-dark  border-1" type="button">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image-container-2 card   w-100" style="height: 308px;">
+                        <div class="">
+                            <img src="./images/lam-9.jpg" class="w-75 py-5"  style="object-fit: contain;" alt="">
+                            <h4 class="fw-semibold text-center text-uppercase">Huracán  Evo</h4>    
+                        </div>
+                        <div class="d-grid">
+                            <button class=" btn btn-outline-dark btn-2 border-1 ps-2" type="button">View</button>
+                        </div>
+                    </div>
+                    
+                </div>
 
-    <!-- </div> -->
+                <div class="col">
+                    <div class="image-container-3 card" style="height: 308px;">
+                        <div class="">
+                            <img src="./images/lam-huracan.jpg"  class="w-100"  alt="">
+                            <h4 class="fw-semibold text-center text-uppercase ">Huracán  Tecnica</h4>
+                        </div>
+                        <div class="d-grid">
+                            <button class=" btn btn-outline-dark btn-3 border-1" type="button">View</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>  
+      </section>
+      <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="text text-center mt-5">
+                        <i class="bi bi-chevron-double-down display-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slides" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#slides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/sterrato_std_cover.webp" class="d-block w-100 slide-img" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/aventador-3.webp" class="d-block w-100 slide-img" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/urus_01.webp" class="d-block w-100 slide-img" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/gate_hura_04.webp" class="d-block w-100 slide-img" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
+                  <i class="bi bi-arrow-left-circle-fill display-3"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+                  <i class="bi bi-arrow-right-circle-fill display-3"></i>
+                </button>
+              </div>
+      </section>
+      
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

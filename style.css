@@ -1,32 +1,33 @@
-/* *{
-    margin: 0;
-    padding: 0;
+.top{
+    background-image: linear-gradient(to right, rgb(255, 239, 186), rgb(255, 255, 255));
 }
 
 
 
-.header{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    gap: 80px;
-    width:100%;
-    height: 60px;
-    background-color:#EEF0F2;
-    position: sticky;
+.image-container-1:hover{
+   transform: scale(1.1);
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
-    flex-wrap: wrap;
-    gap: 80px;
+.image-container-2:hover{
+    transform: scale(1.1);
 }
 
-.nav-text{
-    text-decoration: none;
-    color: #000;
-    font-size: 15px;
-    font-weight: bold;
-} *
+.image-container-3:hover{
+    transform: scale(1.1);
+}
+
+.btn-2{
+    margin-top: 13px;
+}
+
+.btn-3{
+    margin-top: 34px;
+}
+
+.slide-img{
+   object-fit: cover;
+   overflow: hidden;
+   
+   
+}
+
