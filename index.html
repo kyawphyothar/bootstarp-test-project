@@ -5,17 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Car Project</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css2/style.css">
+    <link rel="stylesheet" href="/css/modified.css"> 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">   
 </head>
 <body>
-    <style>
-       body{
-        height: 3000px;
-       }
-    </style>
     <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -45,7 +41,7 @@
               </li>
             </ul>
            <div class="">
-            <a href="#" class="btn btn-warning">Contact Us</a>
+            <a href="#" class="btn btn-warning">Get App</a>
            </div>
           </div>
         </div>
@@ -82,41 +78,51 @@
         </div>
 
             <div class="row mb-2">
-                <div class="col">
-                    <div class="image-container-1 card" style="height: 308px;">
-                        <div class="">
-                            <img src="./images/images (2).jpg" class="w-100 "  alt="">
-                            <h4 class="fw-semibold text-center text-uppercase">Aventador Lp 700-4</h4>
+                <div class="col-12 col-lg-4">
+                    <div class="image-container-1 card ">
+                        <div class="pt-2">
+                          <h4 class="ps-2">Accessories</h4>
+                          <img src="./images/coverphoto-1.jpg" alt="" class="w-100">
+                          <p class="">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dolore facilis dicta repellendus, ratione ut ipsa autem assumenda corrupti doloremque!
+                          </p>
                         </div>
-                        <div class="d-grid mt-4">
-                            <button class=" btn btn-outline-dark  border-1" type="button">View</button>
-                        </div>
+                        <a href="#" class="btn btn-outline-white">Find Out More
+                          <i class="bi bi-chevron-compact-right"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="image-container-2 card   w-100" style="height: 308px;">
-                        <div class="">
-                            <img src="./images/lam-9.jpg" class="w-75 py-5"  style="object-fit: contain;" alt="">
-                            <h4 class="fw-semibold text-center text-uppercase">Huracán  Evo</h4>    
+                <div class="col-12 col-lg-4">
+                    <div class="image-container-2 card " >
+                        <div class="pt-2">
+                          <h4 class="ps-2">Customization</h4>
+                          <img src="./images/ad_personam_slide_02.webp" alt="" class="w-100">
+                          <p class="">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos libero tempore quo, perspiciatis accusamus dolor non dolore saepe porro quisquam!
+                          </p>
+
                         </div>
-                        <div class="d-grid mt-2">
-                            <button class=" btn btn-outline-dark btn-2 border-1 " type="button">View</button>
-                        </div>
-                    </div>
-                    
+                        <a href="#" class="btn btn-outline-white">Find Out More
+                          <i class="bi bi-chevron-compact-right"></i>
+                        </a>
+
+                    </div> 
                 </div>
 
-                <div class="col">
-                    <div class="image-container-3 card" style="height: 308px;">
-                        <div class="">
-                            <img src="./images/lam-huracan.jpg"  class="w-100"  alt="">
-                            <h4 class="fw-semibold text-center text-uppercase ">Huracán  Tecnica</h4>
+                <div class="col-12 col-lg-4">
+                    <div class="image-container-3 card ">
+                        <div class="pt-2">
+                            <h4 class="ps-2">Services</h4>
+                            <img src="./images/images.jpeg" alt="" class="w-100">
+                            <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis maxime nemo saepe qui sint mollitia similique. Voluptas, deleniti vel!
+                            </p>
                         </div>
-                        <div class="d-grid mt-3">
-                            <button class=" btn btn-outline-dark btn-3 border-1" type="button">View</button>
-                        </div>
+                        <a href="#" class="btn btn-outline-white">Find Out More
+                          <i class="bi bi-chevron-compact-right"></i>
+                        </a>
+                        
                     </div>
-                    
                 </div>
             </div>  
       </section>
@@ -286,25 +292,65 @@
       </div>
     </section>
       
-     <hr>
-    <section>
-      <form class="m-4">
-        <div class="mb-3">
-          <label for="email" class="form-floating">Email address</label>
+    <section class="mt-5">
+      <h5 class="">To get notifications about what we offer,sign up with your email address.</h5>
+      <form class="m-2">
+        <div class="mb-2">
+          <label for="email" class="form form-floating">Email address</label>
           <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">Use your correct email address</div>
         </div>
-        <div class="mb-3">
+        <div class="mb-2">
           <label for="password" class="form-label">Password</label>
           <input type="password" class="form-control" id="password">
         </div>
-        <div class="mb-3 form-check">
+        <div class="mb-2">
+          <label for="password" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="password">
+        </div>
+        <div class="mb-4 form-check">
           <input type="checkbox" class="form-check-input" id="checkbox">
           <label class="form-check-label" for="checkbox">Remember Password</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        
+        <button type="submit" class="btn btn-warning">Sing Up</button>
       </form>
+      <div class="">
+        <a class="text-black text-decoration-none">Already have an account?</a>
+        
+      </div>
+
     </section>   
+
+    <div class="container-fluid bg-dark py-3 text-white mt-3">
+      <footer class="py-2 d-flex justify-content-between ">
+        <div class="">
+          <p class="">
+            Copyright © 2022 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.
+          </p>
+        </div>
+          <div class="pe-3">
+            <h5 class="text-warning">
+              Contact Us On
+            </h5>
+            <ul class="list-unstyled  d-flex  justify-content-between">
+              <li class="">
+                <i class="bi bi-instagram"></i>
+              </li>
+              <li class="">
+                <i class="bi bi-facebook"></i>
+              </li>
+              <li class="">
+                <i class="bi bi-twitter"></i>
+              </li>
+              <li class="">
+                <i class="bi bi-whatsapp"></i>
+              </li>
+            </ul>
+          </div>
+      </footer>
+    </div>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

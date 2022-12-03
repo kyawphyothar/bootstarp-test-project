@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@600&family=Playfair+Display:ital@1&display=swap');
+
+
+$font-family-sans-serif:'Playfair Display', serif;
+$headings-font-family:'Arimo', sans-serif;
+
+
+$text-warning:#ffb703;
+$btn-warning:#ffb703;
+
+$bg-secondary:#6b705c;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
