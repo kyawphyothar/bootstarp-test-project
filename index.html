@@ -131,10 +131,10 @@
       </section>
 
       <section>
-            <div class="container">
+            <div class="container arrow">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <div class="text text-center mt-5">
+                        <div class="text text-center mt-3">
                         <i class="bi bi-chevron-double-down display-2"></i>
                         </div>
                     </div>
@@ -203,19 +203,19 @@
                     <div class="">
                       <p class="">Speed</p>
                       <div class="progress">
-                        <div class="progress-bar w-75 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-75 bg-secondary-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                     <div class="">
                       <p class="">Acceleration</p>
                       <div class="progress">
-                        <div class="progress-bar w-100 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-100 bg-secondary-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                     <div class="">
                       <p class="">Handle</p>
                       <div class="progress">
-                        <div class="progress-bar w-50 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-50 bg-secondary-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                 </div>
@@ -241,19 +241,19 @@
                     <div class="">
                       <p class="">Speed</p>
                       <div class="progress">
-                        <div class="progress-bar w-100 bg-warning" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-100 bg-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                     <div class="">
                       <p class="">Acceleration</p>
                       <div class="progress">
-                        <div class="progress-bar w-75 bg-warning" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-75 bg-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                     <div class="">
                       <p class="">Handle</p>
                       <div class="progress">
-                        <div class="progress-bar w-50 bg-warning" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-50 bg-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                 </div>
@@ -279,19 +279,19 @@
                     <div class="">
                       <p class="">Speed</p>
                       <div class="progress">
-                        <div class="progress-bar w-75 bg-danger" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-75 bg-danger-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                     <div class="">
                       <p class="">Acceleration</p>
                       <div class="progress">
-                        <div class="progress-bar w-100 bg-danger" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-100 bg-danger-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                     <div class="">
                       <p class="">Handle</p>
                       <div class="progress">
-                        <div class="progress-bar w-50 bg-danger" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar w-50 bg-danger-custom" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                 </div>
@@ -303,20 +303,28 @@
     </section>
       
     <section class="mt-5">
-      <h5 class="p-2">To get notifications about what we offer,sign up with your email address.</h5>
+      <h5 class="ps-2">To get notifications about what we offer,sign up with your email address.</h5>
       <form class="m-2">
-        <div class="mb-2">
-          <label for="email" class="form form-floating">Email address</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">Use your correct email address</div>
+        <div class="row g-4">
+            <div class="col-12  col-sm-5 col-lg-5">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text"  class="form-control" name="name" id="name">
+            </div>
+            <div class="col-12 col-sm-5 col-lg-5">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Use your correct email address</div>
+            </div>
         </div>
-        <div class="mb-2">
-          <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password">
-        </div>
-        <div class="mb-2">
-          <label for="password" class="form-label">Confirm Password</label>
-          <input type="password" class="form-control" id="password">
+        <div class="row g-4">
+          <div class="col-12 col-sm-5 col-lg-5">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <div class="col-12 col-sm-5 col-lg-5">
+            <label for="password" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="password">
+          </div>
         </div>
         <div class="mb-4 form-check">
           <input type="checkbox" class="form-check-input" id="checkbox">
@@ -326,8 +334,7 @@
         <button type="submit" class="btn btn-warning">Sing Up</button>
       </form>
       <div class="">
-        <a class="text-black text-decoration-none">Already have an account?</a>
-        
+        <a class="text-black text-decoration-none" href="#">Already have an account?</a>
       </div>
 
     </section>   
@@ -343,17 +350,17 @@
             <h5 class="text-warning">
               Contact Us On
             </h5>
-            <ul class="list-unstyled  d-flex  justify-content-between">
-              <li class="">
+            <ul class="list-unstyled  d-flex  justify-content-between ">
+              <li class="list-item">
                 <i class="bi bi-instagram"></i>
               </li>
-              <li class="">
+              <li class="list-item">
                 <i class="bi bi-facebook"></i>
               </li>
-              <li class="">
+              <li class="list-item">
                 <i class="bi bi-twitter"></i>
               </li>
-              <li class="">
+              <li class="list-item">
                 <i class="bi bi-whatsapp"></i>
               </li>
             </ul>

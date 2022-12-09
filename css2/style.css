@@ -6,6 +6,7 @@
 
 .image-container-1:hover{
    transform: scale(1.1);
+
 }
 
 .image-container-2:hover{
@@ -16,18 +17,26 @@
     transform: scale(1.1);
 }
 
-.btn-2{
-    margin-top: 13px;
+.list-item:hover{
+    
+    border-bottom: 2px solid white;
+    transition: 5ms;
 }
 
-.btn-3{
-    margin-top: 34px;
+.arrow{
+    animation-name: moveDown;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
-.slide-img{
-   object-fit: cover;
-   overflow: hidden;
-   
-   
+@keyframes moveDown {
+    0%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
 }
 
