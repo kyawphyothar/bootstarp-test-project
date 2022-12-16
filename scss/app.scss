@@ -1,17 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@600&family=Playfair+Display:ital@1&display=swap');
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$headings-font-family: 'IBM Plex Sans', sans-serif;
 
+$secondary:#6b705c;
+$warning:#ffb703;
+$danger: #c1380e;
+ 
+$spacer:1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9:$spacer * 7,
+  10:$spacer * 8,
 
-$font-family-sans-serif:'Playfair Display', serif;
-$headings-font-family:'Arimo', sans-serif;
-
-$theme-colors:(
-    "custom": #ffb703,
-    "secondary-custom" :#6b705c,
-    "danger-custom" : #c1380e,
-    "warning":#ffb703,
 );
+
+
+
+
 
 @import "../node_modules/bootstrap/sass/bootstrap.scss";
 
+nav{
+    .navbar-toggler{
+        outline: none;
+        border: none;
+        box-shadow: none;
+    
+    }
+    
+    .navbar-toggler:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+    
+    }
+    
+    .navbar-toggler-icon:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    
+    }
+}
 
+.top-section{
+    background-image: linear-gradient(to right, rgba(235, 186, 23, 0.667), rgb(255, 255, 255));
+}
+
+.top-container{
+    padding-top: 100px;
+}
+
+.image-container{
+   transition: 0.5s;
+}
+
+.image-container:hover{
+    transform: translateY(-10px);
+}
+
+.list-item:hover{
+    
+    border-bottom: 2px solid white;
+    transition: 5ms;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.footer{
+    margin-top: auto;
+}
