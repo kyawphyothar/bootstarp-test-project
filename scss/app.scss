@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Poppins:wght@500&display=swap');
 
+
 $font-family-sans-serif: 'Chivo Mono', monospace;
 $headings-font-family: 'Poppins', sans-serif;
 $secondary:#6b705c;
@@ -26,11 +27,9 @@ $spacers: (
 
 );
 
-
-
-
-
 @import "../node_modules/bootstrap/sass/bootstrap.scss";
+@import "../node_modules/bootstrap/sass/_variables.scss";
+
 
 nav{
     .navbar-toggler{
@@ -54,6 +53,7 @@ nav{
     
     }
 }
+
 
 .top-section{
     background-image: linear-gradient(to right, rgba(235, 186, 23, 0.667), rgb(255, 255, 255));

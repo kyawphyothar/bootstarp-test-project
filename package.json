@@ -1,7 +1,7 @@
 {
   "name": "test-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple landing page style website  # Used languages  Bootstrap 5 and modified with sass and css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
     "bootstrap-icons": "^1.10.2",
     "fortawesome": "^0.0.1-security",
     "scrollreveal": "^4.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyawphyothar/bootstarp-test-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kyawphyothar/bootstarp-test-project/issues"
+  },
+  "homepage": "https://github.com/Kyawphyothar/bootstarp-test-project#readme"
 }
